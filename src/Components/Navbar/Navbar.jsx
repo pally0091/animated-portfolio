@@ -1,5 +1,7 @@
 import Sidebar from "../Sidebar/Sidebar";
 import "./navbar.scss";
+import socials from "../../content/socials";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   return (
@@ -13,9 +15,20 @@ const Navbar = () => {
           />
         </div>
         <div className="social">
-          <a href="">Facebook</a>
-          <a href="">LinkedIn</a>
-          <a href="">Github</a>
+          {socials.map((social) => (
+            <a
+              key={social.name}
+              href={social.url}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <motion.img
+                src={`/socials/${social.icon}`}
+                alt={social.name}
+                whileHover={{ scale: 1.5 }}
+              />
+            </a>
+          ))}
         </div>
       </div>
     </nav>

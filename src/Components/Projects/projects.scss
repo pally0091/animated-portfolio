@@ -1,4 +1,9 @@
 .projects {
   margin-top: 150px;
-  background: radial-gradient(circle at 50% 50%, #000000 0%, #525252 100%);
+  background: radial-gradient(
+    circle at 50% 50%,
+    #000000 0%,
+    #525252 50%,
+    #000000 100%
+  );
 }

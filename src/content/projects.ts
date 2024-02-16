@@ -50,7 +50,7 @@ const projects = [
   },
   {
     name: "Recipe Hunt",
-    description: "A recipe search engine with search functinality.",
+    description: "A page that provide recipes with search functinality.",
     stack: ["NextJS", "TailwindCSS", "RestAPI", "Dynamic Routing"],
     img: "/recipe-hunt.png",
     preview: "https://recipe-hunt-beige.vercel.app/",

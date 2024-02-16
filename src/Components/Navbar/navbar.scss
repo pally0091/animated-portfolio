@@ -2,13 +2,14 @@ nav {
   display: flex;
   .wrapper {
     width: 85%;
+    padding: 0.5rem;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     z-index: 20;
-    background-color: #1515158c;
+    background-color: #000000b0;
     backdrop-filter: blur(10px);
     top: 0;
     right: 0;

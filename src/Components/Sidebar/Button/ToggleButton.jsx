@@ -1,11 +1,14 @@
-import { IoMdMenu } from "react-icons/io";
-import { RxCross2 } from "react-icons/rx";
+import { FaArrowUp } from "react-icons/fa";
 
 const ToggleButton = ({ open, setOpen }) => {
   console.log(open);
   return (
     <button onClick={() => setOpen((prev) => !prev)}>
-      {open ? <RxCross2 /> : <IoMdMenu />}
+      <FaArrowUp
+        className={`${
+          open ? "rotate-180" : "rotate-90"
+        } transition-all duration-500 ease-in-out`}
+      />
     </button>
   );
 };

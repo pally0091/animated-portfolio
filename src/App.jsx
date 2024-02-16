@@ -1,5 +1,6 @@
 import Home from "./Components/Home/Home";
 import Navbar from "./Components/Navbar/Navbar";
+import Projects from "./Components/Projects/Projects";
 import "./app.css";
 import "./app.scss";
 
@@ -13,7 +14,9 @@ const App = () => {
       </section>
       <section>Parallax</section>
       <section id="Services">Services</section>
-      <section id="Projects">Projects</section>
+      <section id="Projects">
+        <Projects />
+      </section>
       <section id="About">About</section>
       <section id="Contacts">Contact</section>
     </div>

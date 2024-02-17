@@ -9,15 +9,15 @@ const Skills: React.FC = () => {
   const [ref, inView] = useInView({ triggerOnce: true });
 
   const skillVariants = {
-    hidden: { opacity: 0, x: -20, scale: 0 },
-    visible: { opacity: 1, x: 0, scale: 1 },
+    hidden: { opacity: 0, y: -100, scale: 0 },
+    visible: { opacity: 1, y: 0, scale: 1 },
   };
 
   const containerVariants = {
     hidden: {},
     visible: {
       transition: {
-        staggerChildren: 0.3,
+        staggerChildren: 0.2,
       },
     },
   };

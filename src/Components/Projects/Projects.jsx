@@ -7,16 +7,16 @@ const Projects = () => {
   return (
     <div className="projects">
       <Header>My Works & Projects</Header>
-      <div className="my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div className="my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-[95%] mx-auto">
         {projects.map((project, index) => (
           <motion.a
             key={index}
             href={project.preview}
             target="_blank"
-            initial={{ opacity: 0, scale: 0 }}
-            transition={{ duration: 1 }}
+            initial={{ opacity: 0, scale: 0, rotateX: -540 }}
+            transition={{ duration: 0.8 }}
             whileHover={{ scale: 1.1 }}
-            whileInView={{ opacity: 1, scale: 1 }}
+            whileInView={{ opacity: 1, scale: 1, rotateX: 0 }}
             className="bg-[#B7986B] bg-opacity-60 p-6 backdrop-blur-md rounded-xl"
           >
             <h4 className="text-2xl font-semibold">{project.name}</h4>

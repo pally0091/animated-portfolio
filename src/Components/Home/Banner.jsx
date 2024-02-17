@@ -1,4 +1,5 @@
 import information from "../../content/information";
+import "./banner.scss";
 import { motion } from "framer-motion";
 
 const Banner = () => {
@@ -11,7 +12,16 @@ const Banner = () => {
         transition={{ duration: 1.5 }}
         className="w-full md:w-[95%] lg:w-1/2"
       >
-        <p>{userData.description}</p>
+        <p className="mb-10">{userData.description}</p>
+
+        <a
+          className="libutton"
+          href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=droy9191"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Follow on LinkedIn
+        </a>
       </motion.div>
       <div className="w-full md:w-1/2 overflow-hidden">
         <motion.img

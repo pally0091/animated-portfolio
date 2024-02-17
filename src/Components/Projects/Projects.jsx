@@ -2,12 +2,13 @@ import Header from "../Header";
 import "./projects.scss";
 import projects from "../../content/projects";
 import { motion } from "framer-motion";
+import Experience from "./Experience";
 
 const Projects = () => {
   return (
     <div className="projects">
       <Header>My Works & Projects</Header>
-      <div className="my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-[95%] mx-auto">
+      <div className="my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-[95%] mx-auto ">
         {projects.map((project, index) => (
           <motion.a
             key={index}
@@ -43,6 +44,10 @@ const Projects = () => {
             </div>
           </motion.a>
         ))}
+      </div>
+      {/* work section  */}
+      <div className="mt-20">
+        <Experience />
       </div>
     </div>
   );

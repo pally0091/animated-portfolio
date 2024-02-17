@@ -12,6 +12,14 @@ const socials = [
     icon: "facebook.svg",
     url: "https://www.facebook.com/fre0091",
   },
+  {
+    icon: "upwork.png",
+    url: "https://www.upwork.com/freelancers/debashisr",
+  },
+  {
+    icon: "fiverr.png",
+    url: "https://www.fiverr.com/droy9191",
+  },
 ];
 
 export default socials;

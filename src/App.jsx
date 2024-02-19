@@ -1,3 +1,4 @@
+import Contact from "./Components/Contact/Contact";
 import Home from "./Components/Home/Home";
 import Navbar from "./Components/Navbar/Navbar";
 import Projects from "./Components/Projects/Projects";
@@ -18,7 +19,9 @@ const App = () => {
         <Projects />
       </section>
       <section id="About">About</section>
-      <section id="Contacts">Contact</section>
+      <section id="Contacts">
+        <Contact />
+      </section>
     </div>
   );
 };

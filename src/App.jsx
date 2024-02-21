@@ -2,6 +2,7 @@ import Contact from "./Components/Contact/Contact";
 import Home from "./Components/Home/Home";
 import Navbar from "./Components/Navbar/Navbar";
 import Projects from "./Components/Projects/Projects";
+import { SparklesPreview } from "./Components/SparklePreview/SparklesPreview";
 import "./app.css";
 import "./app.scss";
 
@@ -13,7 +14,9 @@ const App = () => {
       <section id="Home">
         <Home />
       </section>
-      <section>Parallax</section>
+      <section>
+        <SparklesPreview />
+      </section>
       <section id="Services">Services</section>
       <section id="Projects">
         <Projects />

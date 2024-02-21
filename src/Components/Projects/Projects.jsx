@@ -14,10 +14,10 @@ const Projects = () => {
             key={index}
             href={project.preview}
             target="_blank"
-            initial={{ opacity: 0, scale: 0, rotateX: -540 }}
+            initial={{ opacity: 0, y: 50, scale: 0 }}
             transition={{ duration: 0.8 }}
-            whileHover={{ scale: 1.1 }}
-            whileInView={{ opacity: 1, scale: 1, rotateX: 0 }}
+            whileHover={{ boxShadow: "0px 0px 5px 10px #ffffff" }}
+            whileInView={{ opacity: 1, y: 0, scale: 1 }}
             className="bg-[#B7986B] bg-opacity-60 p-6 backdrop-blur-md rounded-xl"
           >
             <h4 className="text-2xl font-semibold">{project.name}</h4>

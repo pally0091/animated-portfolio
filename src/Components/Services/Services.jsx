@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Services = () => {
   return (
-    <div>
+    <div className="my-10 py-10">
       <Header>Services I Provide</Header>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-[95%] mx-auto ">
         {services.map((service, index) => (

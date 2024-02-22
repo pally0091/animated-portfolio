@@ -8,7 +8,7 @@ const itemVarients = {
   open: { y: 0, opacity: 1 },
   closed: { y: 50, opacity: 0 },
 };
-const menu = ["Home", "Services", "Projects", "About", "Contacts"];
+const menu = ["Home", "About", "Services", "Projects", "Contacts"];
 const Links = () => {
   return (
     <motion.div

@@ -4,6 +4,7 @@ import socials from "../../content/socials";
 import "./contact.scss";
 import { AiTwotoneMail } from "react-icons/ai";
 import { MdLocationOn } from "react-icons/md";
+import Form from "./Form";
 
 const Contact = () => {
   return (
@@ -65,7 +66,7 @@ const Contact = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.5 }}
         >
-          form
+          <Form/>
         </motion.div>
       </div>
     </div>

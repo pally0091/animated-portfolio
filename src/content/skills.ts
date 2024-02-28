@@ -114,5 +114,10 @@ const skills = [
     description: "I know how to work with Firebase.",
     image: "firebase.png",
   },
+  {
+    title: "StrapiCMS",
+    description: "I know how to work with StrapiCMS.",
+    image: "strapi.png",
+  },
 ];
 export default skills;

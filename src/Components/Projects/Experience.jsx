@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <div>
       <Header>My Experiences</Header>
-      <div className="mt-10 w-[90%] me-0 ms-auto flex flex-col gap-5">
+      <div className="mt-10 w-[90%] me-0 ms-auto flex flex-col-reverse gap-5">
         {experience.map((exp, index) => (
           <motion.div
             key={index}

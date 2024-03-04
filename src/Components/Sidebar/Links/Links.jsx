@@ -1,7 +1,13 @@
 import { motion } from "framer-motion";
 
 const varients = {
-  open: { transition: { staggerChildren: 0.1, staggerDirection: 1 } },
+  open: {
+    transition: {
+      staggerChildren: 0.1,
+      staggerDirection: 1,
+      delayChildren: 0.3,
+    },
+  },
   closed: { transition: { staggerChildren: 0.05, staggerDirection: -1 } },
 };
 const itemVarients = {

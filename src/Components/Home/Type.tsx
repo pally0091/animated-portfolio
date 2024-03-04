@@ -34,7 +34,7 @@ export default function Type() {
   ];
   return (
     <div className="flex flex-col items-center justify-center h-[40rem] ">
-      <p className="text-neutral-600 dark:text-neutral-200 text-base  mb-10">
+      <p className="text-neutral-200 text-base  mb-10">
         Fascinating Audiences with Frontend Magic
       </p>
       <TypewriterEffect
